@@ -1,0 +1,18 @@
+# Blacklist everything
+/*
+
+# Whitelist specific folders
+!/src/
+!/scripts/
+
+# Whitelist specific files
+!/.gitignore
+!/Makefile
+!/README.md
+!/requirements.txt
+!/setup.py
+
+# Blacklist specific folders
+__pycache__
+
+# Blacklist specific files
