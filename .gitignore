@@ -4,6 +4,7 @@
 # Whitelist specific folders
 !/src/
 !/scripts/
+!/terraform/
 
 # Whitelist specific files
 !/.gitignore
@@ -15,4 +16,105 @@
 # Blacklist specific folders
 __pycache__
 
-# Blacklist specific files
+# Terraform recommendations
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# Crash log files
+crash.log
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+# Terraform plan files
+*.tfplan
+# Sensitive override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Python/FastAPI recommendations
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# Local virtual environments
+.venv/
+.inephany-env/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
