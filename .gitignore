@@ -5,6 +5,8 @@
 !/src/
 !/scripts/
 !/terraform/
+!.github/
+!.github/workflows/
 
 # Whitelist specific files
 !/.gitignore
